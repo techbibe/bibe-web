@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bi-Be | Vibe Code with Us!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Bi-Be 🐥</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#how-to">How to Vibe</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1>Let's Vibe Code with Bi-Be!</h1>
+                <p>Making coding fun, accessible, and exciting for everyone.</p>
+                <a href="#how-to" class="btn">Get Started!</a>
+            </div>
+            <div class="hero-mascot">
+                <!-- SVG Duckling Mascot -->
+                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="100" cy="120" r="60" fill="#f1c40f" /> <!-- Body -->
+                    <circle cx="100" cy="60" r="40" fill="#f1c40f" /> <!-- Head -->
+                    <circle cx="85" cy="55" r="5" fill="#2c3e50" /> <!-- Left Eye -->
+                    <circle cx="115" cy="55" r="5" fill="#2c3e50" /> <!-- Right Eye -->
+                    <path d="M 90 70 Q 100 85 110 70" fill="none" stroke="#e67e22" stroke-width="4" stroke-linecap="round" /> <!-- Beak -->
+                    <path class="wing" d="M 40 120 Q 20 100 40 80" fill="none" stroke="#f1c40f" stroke-width="15" stroke-linecap="round" /> <!-- Wing -->
+                </svg>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2>Who are we?</h2>
+                <p>Bi-Be is a youth-focused organization dedicated to teaching students how to vibe code. We believe coding isn't just about syntax; it's about the feeling, the creativity, and the community.</p>
+                <h3>Why Vibe Coding Matters</h3>
+                <p>Vibe coding is all about removing the intimidation from programming. It's fast, it's expressive, and it allows you to bring your ideas to life with a flow that feels natural.</p>
+            </div>
+        </section>
+
+        <section id="how-to" class="section alt-bg">
+            <div class="container">
+                <h2>How to Vibe Code</h2>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-num">1</div>
+                        <h3>Feel the Beat</h3>
+                        <p>Identify your goal and get into the creative zone.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">2</div>
+                        <h3>Write the Vibe</h3>
+                        <p>Use modern tools and expressive language to build your project.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">3</div>
+                        <h3>Run the Magic</h3>
+                        <p>See your creation come to life instantly!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="resources" class="section">
+            <div class="container">
+                <h2>Resources</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3>Scratch</h3>
+                        <p>Perfect for beginners to start visual vibe coding.</p>
+                        <a href="https://scratch.mit.edu" target="_blank" class="link">Check it out →</a>
+                    </div>
+                    <div class="card">
+                        <h3>Code.org</h3>
+                        <p>Fun puzzles and games to learn the basics.</p>
+                        <a href="https://code.org" target="_blank" class="link">Learn more →</a>
+                    </div>
+                    <div class="card">
+                        <h3>Bi-Be Guide</h3>
+                        <p>Our custom guide to mastering the vibe.</p>
+                        <a href="#" class="link">Download PDF →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="videos" class="section alt-bg">
+            <div class="container">
+                <h2>Video Guides</h2>
+                <div class="coming-soon">
+                    <p>Exciting video tutorials are on the way! Stay tuned for guides on:</p>
+                    <ul>
+                        <li>Intro to Vibe Coding</li>
+                        <li>Building Your First Vibe Site</li>
+                        <li>Advanced Vibe Techniques</li>
+                    </ul>
+                    <div class="video-placeholder">Coming Soon...</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Say Hello!</h2>
+                <form id="contact-form" action="https://formspree.io/f/xwvzwjrz" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Vibe</button>
+                </form>
+                <div id="form-message" class="hidden">Thanks! We've received your vibe. 🐥</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Bi-Be Nonprofit. Made with Vibe. 🐥</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
